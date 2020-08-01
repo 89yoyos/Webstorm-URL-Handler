@@ -11,7 +11,7 @@ WebstormPath="./webstorm.cmd"
 Host="open"
 
 # Port to listen on
-Port="8080"
+Port="80"
 
 # Combine it all together
 cmd="$UrlHandlerPath -port=$Port -host=$Host -executable=$WebstormPath"

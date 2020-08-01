@@ -23,9 +23,9 @@ URLHandlerPath is the path to the compiled executable of this program. This can 
 ```
 WebstormPath="webstorm.cmd"
 ```
-This is the path to the WebStorm executable **OR** the generated shell scripts from the toolbox
+WebstormPath is the path to the WebStorm executable **OR** the generated shell scripts from the toolbox
 ```
 Host="open"
-Port=80
+Port="80"
 ```
-And these work as expected and simply pass through to the executable.
+`Host` and `Port` work as expected and simply pass through to the executable.

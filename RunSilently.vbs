@@ -11,7 +11,7 @@ WebstormPath="webstorm.cmd"
 Host="open"
 
 ' Port to listen on
-Port=80
+Port="80"
 
 ' Combine it all together
 WinScriptHost.Run UrlHandlerPath & " -executable=" & WebstormPath & " -host=" & Host & " -port=" & Port, 0
