@@ -19,11 +19,11 @@ Each file contains all the configuration settings with default values.
 ```
 UrlHandlerPath="WebstormURLHandler.exe"
 ```
-URLHandlerPath is the path to the compiled executable of this program. This can be relative or absolute.
+`URLHandlerPath` is the path to the compiled executable of this program. This can be relative or absolute.
 ```
 WebstormPath="webstorm.cmd"
 ```
-WebstormPath is the path to the WebStorm executable **OR** the generated shell scripts from the toolbox
+`WebstormPath` is the path to the WebStorm executable **OR** the generated shell scripts from the toolbox
 ```
 Host="open"
 Port="80"
